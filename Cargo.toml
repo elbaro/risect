@@ -3,12 +3,15 @@ name = "risect"
 version = "0.1.0-alpha.1"
 authors = ["elbaro <elbaro@users.noreply.github.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "MIT"
+license-file = "LICENSE"
+description = "A simple bisection tool"
+repository = "http://github.com/elbaro/risect"
+readme = "READMD.md"
+keywords = ["bisect", "debug", "git", "search", "tool"]
+categories = ["command-line-utilities", "development-tools::testing"]
 
 [dependencies]
-clap = "2.33.1"
-vergen = "3.1.0"
-indicatif = "0.14.0"
+clap = "3.0.0-beta.1"
 anyhow = "1.0.31"
 colored = "1.9.3"
