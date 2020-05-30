@@ -7,7 +7,7 @@ license = "MIT"
 license-file = "LICENSE"
 description = "A simple bisection tool"
 repository = "http://github.com/elbaro/risect"
-readme = "READMD.md"
+readme = "README.md"
 keywords = ["bisect", "debug", "git", "search", "tool"]
 categories = ["command-line-utilities", "development-tools::testing"]
 
