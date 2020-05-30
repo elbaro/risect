@@ -1,0 +1,14 @@
+[package]
+name = "risect"
+version = "0.1.0"
+authors = ["elbaro <elbaro@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.1"
+vergen = "3.1.0"
+indicatif = "0.14.0"
+anyhow = "1.0.31"
+colored = "1.9.3"
